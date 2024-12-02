@@ -1,0 +1,17 @@
+[0.006s] Invoking command in '/home/gaeun/composition_assignment/build/composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gaeun/install/launch_testing_examples:/home/gaeun/install/examples_rclpy_pointcloud_publisher:/home/gaeun/install/examples_rclpy_minimal_subscriber:/home/gaeun/install/examples_rclpy_minimal_service:/home/gaeun/install/examples_rclpy_minimal_publisher:/home/gaeun/install/examples_rclpy_minimal_client:/home/gaeun/install/examples_rclpy_minimal_action_server:/home/gaeun/install/examples_rclpy_minimal_action_client:/home/gaeun/install/examples_rclpy_guard_conditions:/home/gaeun/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/gaeun/composition_assignment/build/composition -- -j4 -l4
+[0.021s] [35m[1mConsolidate compiler generated dependencies of target talker_component[0m
+[0.021s] [35m[1mConsolidate compiler generated dependencies of target listener_component[0m
+[0.027s] [ 33%] [32mBuilding CXX object CMakeFiles/talker_component.dir/src/talker_component.cpp.o[0m
+[0.027s] [ 33%] [32mBuilding CXX object CMakeFiles/listener_component.dir/src/listener_component.cpp.o[0m
+[0.132s] [01m[K/home/gaeun/composition_assignment/src/listener_component.cpp:4:1:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ does not name a type
+[0.132s]     4 | [01;31m[Ki[m[K// you may not use this file except in compliance with the License.
+[0.132s]       | [01;31m[K^[m[K
+[1.218s] [01m[K/home/gaeun/composition_assignment/src/talker_component.cpp:30:15:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcomposition::fixed_key[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.218s]    30 |   static char [01;35m[Kfixed_key[m[K[32];
+[1.218s]       |               [01;35m[K^~~~~~~~~[m[K
+[1.684s] [ 50%] [32m[1mLinking CXX shared library libtalker_component.so[0m
+[1.771s] [ 50%] Built target talker_component
+[1.874s] gmake[2]: *** [CMakeFiles/listener_component.dir/build.make:76: CMakeFiles/listener_component.dir/src/listener_component.cpp.o] Error 1
+[1.874s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/listener_component.dir/all] Error 2
+[1.874s] gmake: *** [Makefile:146: all] Error 2
+[1.876s] Invoked command in '/home/gaeun/composition_assignment/build/composition' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gaeun/install/launch_testing_examples:/home/gaeun/install/examples_rclpy_pointcloud_publisher:/home/gaeun/install/examples_rclpy_minimal_subscriber:/home/gaeun/install/examples_rclpy_minimal_service:/home/gaeun/install/examples_rclpy_minimal_publisher:/home/gaeun/install/examples_rclpy_minimal_client:/home/gaeun/install/examples_rclpy_minimal_action_server:/home/gaeun/install/examples_rclpy_minimal_action_client:/home/gaeun/install/examples_rclpy_guard_conditions:/home/gaeun/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/gaeun/composition_assignment/build/composition -- -j4 -l4

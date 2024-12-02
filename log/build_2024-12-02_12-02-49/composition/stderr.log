@@ -1,0 +1,11 @@
+[01m[K/home/gaeun/composition_assignment/src/talker_component.cpp:[m[K In member function ‘[01m[Kvoid composition::Talker::on_timer()[m[K’:
+[01m[K/home/gaeun/composition_assignment/src/talker_component.cpp:53:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kkey_location[m[K’ was not declared in this scope
+   53 |   std::strcpy([01;31m[Kkey_location[m[K, "HACKED");
+      |               [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/gaeun/composition_assignment/src/talker_component.cpp:[m[K At global scope:
+[01m[K/home/gaeun/composition_assignment/src/talker_component.cpp:30:15:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcomposition::fixed_key[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   30 |   static char [01;35m[Kfixed_key[m[K[32];
+      |               [01;35m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/talker_component.dir/build.make:76: CMakeFiles/talker_component.dir/src/talker_component.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/talker_component.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

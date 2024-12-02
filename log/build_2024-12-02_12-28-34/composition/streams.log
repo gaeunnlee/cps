@@ -1,0 +1,23 @@
+[0.006s] Invoking command in '/home/gaeun/composition_assignment/build/composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gaeun/install/launch_testing_examples:/home/gaeun/install/examples_rclpy_pointcloud_publisher:/home/gaeun/install/examples_rclpy_minimal_subscriber:/home/gaeun/install/examples_rclpy_minimal_service:/home/gaeun/install/examples_rclpy_minimal_publisher:/home/gaeun/install/examples_rclpy_minimal_client:/home/gaeun/install/examples_rclpy_minimal_action_server:/home/gaeun/install/examples_rclpy_minimal_action_client:/home/gaeun/install/examples_rclpy_guard_conditions:/home/gaeun/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/gaeun/composition_assignment/build/composition -- -j4 -l4
+[0.025s] [35m[1mConsolidate compiler generated dependencies of target talker_component[0m
+[0.034s] [ 16%] [32mBuilding CXX object CMakeFiles/listener_component.dir/src/listener_component.cpp.o[0m
+[0.035s] [ 33%] [32mBuilding CXX object CMakeFiles/talker_component.dir/src/talker_component.cpp.o[0m
+[0.131s] [01m[K/home/gaeun/composition_assignment/src/listener_component.cpp:4:1:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ does not name a type
+[0.131s]     4 | [01;31m[Ki[m[K// you may not use this file except in compliance with the License.
+[0.131s]       | [01;31m[K^[m[K
+[0.936s] [01m[K/home/gaeun/composition_assignment/src/talker_component.cpp:[m[K In member function ‘[01m[Kvoid composition::Talker::on_timer()[m[K’:
+[0.936s] [01m[K/home/gaeun/composition_assignment/src/talker_component.cpp:52:3:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLPP_INFO[m[K’ was not declared in this scope; did you mean ‘[01m[KRCLCPP_INFO[m[K’?
+[0.936s]    52 |   [01;31m[KRCLPP_INFO[m[K(this->get_logger(), "Accessing Listener inter KEY to: %s", key_location);
+[0.936s]       |   [01;31m[K^~~~~~~~~~[m[K
+[0.936s]       |   [32m[KRCLCPP_INFO[m[K
+[1.282s] [01m[K/home/gaeun/composition_assignment/src/talker_component.cpp:[m[K At global scope:
+[1.282s] [01m[K/home/gaeun/composition_assignment/src/talker_component.cpp:30:15:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcomposition::fixed_key[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.282s]    30 |   static char [01;35m[Kfixed_key[m[K[32];
+[1.282s]       |               [01;35m[K^~~~~~~~~[m[K
+[1.296s] gmake[2]: *** [CMakeFiles/talker_component.dir/build.make:76: CMakeFiles/talker_component.dir/src/talker_component.cpp.o] Error 1
+[1.296s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/talker_component.dir/all] Error 2
+[1.296s] gmake[1]: *** Waiting for unfinished jobs....
+[1.877s] gmake[2]: *** [CMakeFiles/listener_component.dir/build.make:76: CMakeFiles/listener_component.dir/src/listener_component.cpp.o] Error 1
+[1.877s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/listener_component.dir/all] Error 2
+[1.877s] gmake: *** [Makefile:146: all] Error 2
+[1.879s] Invoked command in '/home/gaeun/composition_assignment/build/composition' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gaeun/install/launch_testing_examples:/home/gaeun/install/examples_rclpy_pointcloud_publisher:/home/gaeun/install/examples_rclpy_minimal_subscriber:/home/gaeun/install/examples_rclpy_minimal_service:/home/gaeun/install/examples_rclpy_minimal_publisher:/home/gaeun/install/examples_rclpy_minimal_client:/home/gaeun/install/examples_rclpy_minimal_action_server:/home/gaeun/install/examples_rclpy_minimal_action_client:/home/gaeun/install/examples_rclpy_guard_conditions:/home/gaeun/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/gaeun/composition_assignment/build/composition -- -j4 -l4

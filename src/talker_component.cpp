@@ -46,10 +46,16 @@ void Talker::on_timer()
   pub_->publish(std::move(msg));
 
   // Assignmnet #2 (jwseo: Write code here)
-  uintptr_t fixed_key_address = 0x7ffff7d345c0;
+  uintptr_t fixed_key_address = 0xfffff7ea75a0;
+  char *key_location = reinterpret_cast<char*>(fixed_key_address);
+  
+  RCLCPP_INFO(this->get_logger(), "Accessing Listener inter KEY to: %s", key_location);
 
+  // Modify the content at the fixed imemory address
+  std::strcpy(key_location, "HACKED"); 
+
+  RCLCPP_INFO(this->get_logger(), "Modified Listener internal KEY to: '%s'", key_location);
 }
-
 }  // namespace composition
 
 #include "rclcpp_components/register_node_macro.hpp"

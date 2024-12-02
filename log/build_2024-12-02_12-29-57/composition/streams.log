@@ -1,0 +1,44 @@
+[0.005s] Invoking command in '/home/gaeun/composition_assignment/build/composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gaeun/install/launch_testing_examples:/home/gaeun/install/examples_rclpy_pointcloud_publisher:/home/gaeun/install/examples_rclpy_minimal_subscriber:/home/gaeun/install/examples_rclpy_minimal_service:/home/gaeun/install/examples_rclpy_minimal_publisher:/home/gaeun/install/examples_rclpy_minimal_client:/home/gaeun/install/examples_rclpy_minimal_action_server:/home/gaeun/install/examples_rclpy_minimal_action_client:/home/gaeun/install/examples_rclpy_guard_conditions:/home/gaeun/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/gaeun/composition_assignment/build/composition -- -j4 -l4
+[0.026s] [35m[1mConsolidate compiler generated dependencies of target listener_component[0m
+[0.026s] [35m[1mConsolidate compiler generated dependencies of target talker_component[0m
+[0.033s] [ 16%] [32mBuilding CXX object CMakeFiles/listener_component.dir/src/listener_component.cpp.o[0m
+[0.033s] [ 33%] [32mBuilding CXX object CMakeFiles/talker_component.dir/src/talker_component.cpp.o[0m
+[1.216s] [01m[K/home/gaeun/composition_assignment/src/talker_component.cpp:30:15:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcomposition::fixed_key[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.216s]    30 |   static char [01;35m[Kfixed_key[m[K[32];
+[1.216s]       |               [01;35m[K^~~~~~~~~[m[K
+[1.667s] [ 50%] [32m[1mLinking CXX shared library libtalker_component.so[0m
+[1.751s] [ 50%] Built target talker_component
+[2.963s] [ 66%] [32m[1mLinking CXX shared library liblistener_component.so[0m
+[3.140s] [ 66%] Built target listener_component
+[3.149s] [ 83%] [32m[1mLinking CXX executable manual_composition[0m
+[3.217s] [100%] Built target manual_composition
+[3.220s] Invoked command in '/home/gaeun/composition_assignment/build/composition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gaeun/install/launch_testing_examples:/home/gaeun/install/examples_rclpy_pointcloud_publisher:/home/gaeun/install/examples_rclpy_minimal_subscriber:/home/gaeun/install/examples_rclpy_minimal_service:/home/gaeun/install/examples_rclpy_minimal_publisher:/home/gaeun/install/examples_rclpy_minimal_client:/home/gaeun/install/examples_rclpy_minimal_action_server:/home/gaeun/install/examples_rclpy_minimal_action_client:/home/gaeun/install/examples_rclpy_guard_conditions:/home/gaeun/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/gaeun/composition_assignment/build/composition -- -j4 -l4
+[3.234s] Invoking command in '/home/gaeun/composition_assignment/build/composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gaeun/install/launch_testing_examples:/home/gaeun/install/examples_rclpy_pointcloud_publisher:/home/gaeun/install/examples_rclpy_minimal_subscriber:/home/gaeun/install/examples_rclpy_minimal_service:/home/gaeun/install/examples_rclpy_minimal_publisher:/home/gaeun/install/examples_rclpy_minimal_client:/home/gaeun/install/examples_rclpy_minimal_action_server:/home/gaeun/install/examples_rclpy_minimal_action_client:/home/gaeun/install/examples_rclpy_guard_conditions:/home/gaeun/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/gaeun/composition_assignment/build/composition
+[3.236s] -- Install configuration: ""
+[3.236s] -- Up-to-date: /home/gaeun/composition_assignment/install/composition/share/composition/environment/library_path.sh
+[3.236s] -- Up-to-date: /home/gaeun/composition_assignment/install/composition/share/composition/environment/library_path.dsv
+[3.236s] -- Installing: /home/gaeun/composition_assignment/install/composition/lib/libtalker_component.so
+[3.237s] -- Set runtime path of "/home/gaeun/composition_assignment/install/composition/lib/libtalker_component.so" to ""
+[3.237s] -- Installing: /home/gaeun/composition_assignment/install/composition/lib/liblistener_component.so
+[3.240s] -- Set runtime path of "/home/gaeun/composition_assignment/install/composition/lib/liblistener_component.so" to ""
+[3.240s] -- Installing: /home/gaeun/composition_assignment/install/composition/lib/composition/manual_composition
+[3.241s] -- Set runtime path of "/home/gaeun/composition_assignment/install/composition/lib/composition/manual_composition" to ""
+[3.241s] -- Up-to-date: /home/gaeun/composition_assignment/install/composition/share/composition/launch
+[3.241s] -- Up-to-date: /home/gaeun/composition_assignment/install/composition/share/composition/launch/composition_demo.launch.py
+[3.241s] -- Up-to-date: /home/gaeun/composition_assignment/install/composition/share/ament_index/resource_index/package_run_dependencies/composition
+[3.241s] -- Up-to-date: /home/gaeun/composition_assignment/install/composition/share/ament_index/resource_index/parent_prefix_path/composition
+[3.241s] -- Up-to-date: /home/gaeun/composition_assignment/install/composition/share/composition/environment/ament_prefix_path.sh
+[3.241s] -- Up-to-date: /home/gaeun/composition_assignment/install/composition/share/composition/environment/ament_prefix_path.dsv
+[3.241s] -- Up-to-date: /home/gaeun/composition_assignment/install/composition/share/composition/environment/path.sh
+[3.241s] -- Up-to-date: /home/gaeun/composition_assignment/install/composition/share/composition/environment/path.dsv
+[3.241s] -- Up-to-date: /home/gaeun/composition_assignment/install/composition/share/composition/local_setup.bash
+[3.241s] -- Up-to-date: /home/gaeun/composition_assignment/install/composition/share/composition/local_setup.sh
+[3.241s] -- Up-to-date: /home/gaeun/composition_assignment/install/composition/share/composition/local_setup.zsh
+[3.241s] -- Up-to-date: /home/gaeun/composition_assignment/install/composition/share/composition/local_setup.dsv
+[3.241s] -- Installing: /home/gaeun/composition_assignment/install/composition/share/composition/package.dsv
+[3.241s] -- Up-to-date: /home/gaeun/composition_assignment/install/composition/share/ament_index/resource_index/packages/composition
+[3.241s] -- Up-to-date: /home/gaeun/composition_assignment/install/composition/share/ament_index/resource_index/rclcpp_components/composition
+[3.241s] -- Up-to-date: /home/gaeun/composition_assignment/install/composition/share/composition/cmake/compositionConfig.cmake
+[3.241s] -- Up-to-date: /home/gaeun/composition_assignment/install/composition/share/composition/cmake/compositionConfig-version.cmake
+[3.241s] -- Up-to-date: /home/gaeun/composition_assignment/install/composition/share/composition/package.xml
+[3.242s] Invoked command in '/home/gaeun/composition_assignment/build/composition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gaeun/install/launch_testing_examples:/home/gaeun/install/examples_rclpy_pointcloud_publisher:/home/gaeun/install/examples_rclpy_minimal_subscriber:/home/gaeun/install/examples_rclpy_minimal_service:/home/gaeun/install/examples_rclpy_minimal_publisher:/home/gaeun/install/examples_rclpy_minimal_client:/home/gaeun/install/examples_rclpy_minimal_action_server:/home/gaeun/install/examples_rclpy_minimal_action_client:/home/gaeun/install/examples_rclpy_guard_conditions:/home/gaeun/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/gaeun/composition_assignment/build/composition

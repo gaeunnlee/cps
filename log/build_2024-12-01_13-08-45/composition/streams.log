@@ -1,0 +1,105 @@
+[0.004s] Invoking command in '/home/gaeun/composition_assignment/build/composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gaeun/install/launch_testing_examples:/home/gaeun/install/examples_rclpy_pointcloud_publisher:/home/gaeun/install/examples_rclpy_minimal_subscriber:/home/gaeun/install/examples_rclpy_minimal_service:/home/gaeun/install/examples_rclpy_minimal_publisher:/home/gaeun/install/examples_rclpy_minimal_client:/home/gaeun/install/examples_rclpy_minimal_action_server:/home/gaeun/install/examples_rclpy_minimal_action_client:/home/gaeun/install/examples_rclpy_guard_conditions:/home/gaeun/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/gaeun/composition_assignment -DCMAKE_INSTALL_PREFIX=/home/gaeun/composition_assignment/install/composition
+[0.069s] -- The C compiler identification is GNU 11.4.0
+[0.095s] -- The CXX compiler identification is GNU 11.4.0
+[0.101s] -- Detecting C compiler ABI info
+[0.129s] -- Detecting C compiler ABI info - done
+[0.132s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.132s] -- Detecting C compile features
+[0.133s] -- Detecting C compile features - done
+[0.134s] -- Detecting CXX compiler ABI info
+[0.164s] -- Detecting CXX compiler ABI info - done
+[0.167s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.167s] -- Detecting CXX compile features
+[0.168s] -- Detecting CXX compile features - done
+[0.171s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.240s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.296s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.326s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.331s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.338s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.348s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.360s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.393s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.424s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.427s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.469s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.481s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.498s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.506s] -- Looking for pthread.h
+[0.536s] -- Looking for pthread.h - found
+[0.536s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.567s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.567s] -- Found Threads: TRUE  
+[0.602s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.624s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.686s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.696s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.701s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.701s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.701s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.701s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[0.710s] -- Found PythonExtra: .so  
+[0.715s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.717s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.717s] -- Configured cppcheck include dirs: /home/gaeun/composition_assignment/include
+[0.717s] -- Configured cppcheck exclude dirs and/or files: 
+[0.720s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.720s] -- Configured cpplint exclude dirs and/or files: 
+[0.721s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.722s] -- Added test 'lint_cmake' to check CMake code style
+[0.722s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.725s] -- Added test 'uncrustify' to check C / C++ code style
+[0.725s] -- Configured uncrustify additional arguments: 
+[0.726s] -- Added test 'xmllint' to check XML markup files
+[0.727s] -- Configuring done
+[0.734s] -- Generating done
+[0.735s] -- Build files have been written to: /home/gaeun/composition_assignment/build/composition
+[0.740s] Invoked command in '/home/gaeun/composition_assignment/build/composition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gaeun/install/launch_testing_examples:/home/gaeun/install/examples_rclpy_pointcloud_publisher:/home/gaeun/install/examples_rclpy_minimal_subscriber:/home/gaeun/install/examples_rclpy_minimal_service:/home/gaeun/install/examples_rclpy_minimal_publisher:/home/gaeun/install/examples_rclpy_minimal_client:/home/gaeun/install/examples_rclpy_minimal_action_server:/home/gaeun/install/examples_rclpy_minimal_action_client:/home/gaeun/install/examples_rclpy_guard_conditions:/home/gaeun/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/gaeun/composition_assignment -DCMAKE_INSTALL_PREFIX=/home/gaeun/composition_assignment/install/composition
+[0.740s] Invoking command in '/home/gaeun/composition_assignment/build/composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gaeun/install/launch_testing_examples:/home/gaeun/install/examples_rclpy_pointcloud_publisher:/home/gaeun/install/examples_rclpy_minimal_subscriber:/home/gaeun/install/examples_rclpy_minimal_service:/home/gaeun/install/examples_rclpy_minimal_publisher:/home/gaeun/install/examples_rclpy_minimal_client:/home/gaeun/install/examples_rclpy_minimal_action_server:/home/gaeun/install/examples_rclpy_minimal_action_client:/home/gaeun/install/examples_rclpy_guard_conditions:/home/gaeun/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/gaeun/composition_assignment/build/composition -- -j4 -l4
+[0.756s] [ 16%] [32mBuilding CXX object CMakeFiles/talker_component.dir/src/talker_component.cpp.o[0m
+[0.756s] [ 33%] [32mBuilding CXX object CMakeFiles/listener_component.dir/src/listener_component.cpp.o[0m
+[1.712s] [01m[K/home/gaeun/composition_assignment/src/talker_component.cpp:[m[K In member function ‘[01m[Kvoid composition::Talker::on_timer()[m[K’:
+[1.712s] [01m[K/home/gaeun/composition_assignment/src/talker_component.cpp:49:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfixed_key_address[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.712s]    49 |   uintptr_t [01;35m[Kfixed_key_address[m[K = 0x7ffff7d345c0;
+[1.712s]       |             [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[2.045s] [01m[K/home/gaeun/composition_assignment/src/talker_component.cpp:[m[K At global scope:
+[2.045s] [01m[K/home/gaeun/composition_assignment/src/talker_component.cpp:30:15:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcomposition::fixed_key[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.045s]    30 |   static char [01;35m[Kfixed_key[m[K[32];
+[2.045s]       |               [01;35m[K^~~~~~~~~[m[K
+[2.511s] [ 50%] [32m[1mLinking CXX shared library libtalker_component.so[0m
+[2.594s] [ 50%] Built target talker_component
+[3.782s] [ 66%] [32m[1mLinking CXX shared library liblistener_component.so[0m
+[3.956s] [ 66%] Built target listener_component
+[3.962s] [ 83%] [32mBuilding CXX object CMakeFiles/manual_composition.dir/src/manual_composition.cpp.o[0m
+[4.943s] [100%] [32m[1mLinking CXX executable manual_composition[0m
+[5.011s] [100%] Built target manual_composition
+[5.015s] Invoked command in '/home/gaeun/composition_assignment/build/composition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gaeun/install/launch_testing_examples:/home/gaeun/install/examples_rclpy_pointcloud_publisher:/home/gaeun/install/examples_rclpy_minimal_subscriber:/home/gaeun/install/examples_rclpy_minimal_service:/home/gaeun/install/examples_rclpy_minimal_publisher:/home/gaeun/install/examples_rclpy_minimal_client:/home/gaeun/install/examples_rclpy_minimal_action_server:/home/gaeun/install/examples_rclpy_minimal_action_client:/home/gaeun/install/examples_rclpy_guard_conditions:/home/gaeun/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/gaeun/composition_assignment/build/composition -- -j4 -l4
+[5.027s] Invoking command in '/home/gaeun/composition_assignment/build/composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gaeun/install/launch_testing_examples:/home/gaeun/install/examples_rclpy_pointcloud_publisher:/home/gaeun/install/examples_rclpy_minimal_subscriber:/home/gaeun/install/examples_rclpy_minimal_service:/home/gaeun/install/examples_rclpy_minimal_publisher:/home/gaeun/install/examples_rclpy_minimal_client:/home/gaeun/install/examples_rclpy_minimal_action_server:/home/gaeun/install/examples_rclpy_minimal_action_client:/home/gaeun/install/examples_rclpy_guard_conditions:/home/gaeun/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/gaeun/composition_assignment/build/composition
+[5.030s] -- Install configuration: ""
+[5.030s] -- Installing: /home/gaeun/composition_assignment/install/composition/share/composition/environment/library_path.sh
+[5.030s] -- Installing: /home/gaeun/composition_assignment/install/composition/share/composition/environment/library_path.dsv
+[5.030s] -- Installing: /home/gaeun/composition_assignment/install/composition/lib/libtalker_component.so
+[5.031s] -- Set runtime path of "/home/gaeun/composition_assignment/install/composition/lib/libtalker_component.so" to ""
+[5.031s] -- Installing: /home/gaeun/composition_assignment/install/composition/lib/liblistener_component.so
+[5.034s] -- Set runtime path of "/home/gaeun/composition_assignment/install/composition/lib/liblistener_component.so" to ""
+[5.034s] -- Installing: /home/gaeun/composition_assignment/install/composition/lib/composition/manual_composition
+[5.034s] -- Set runtime path of "/home/gaeun/composition_assignment/install/composition/lib/composition/manual_composition" to ""
+[5.034s] -- Installing: /home/gaeun/composition_assignment/install/composition/share/composition/launch
+[5.034s] -- Installing: /home/gaeun/composition_assignment/install/composition/share/composition/launch/composition_demo.launch.py
+[5.034s] -- Installing: /home/gaeun/composition_assignment/install/composition/share/ament_index/resource_index/package_run_dependencies/composition
+[5.034s] -- Installing: /home/gaeun/composition_assignment/install/composition/share/ament_index/resource_index/parent_prefix_path/composition
+[5.034s] -- Installing: /home/gaeun/composition_assignment/install/composition/share/composition/environment/ament_prefix_path.sh
+[5.034s] -- Installing: /home/gaeun/composition_assignment/install/composition/share/composition/environment/ament_prefix_path.dsv
+[5.035s] -- Installing: /home/gaeun/composition_assignment/install/composition/share/composition/environment/path.sh
+[5.035s] -- Installing: /home/gaeun/composition_assignment/install/composition/share/composition/environment/path.dsv
+[5.035s] -- Installing: /home/gaeun/composition_assignment/install/composition/share/composition/local_setup.bash
+[5.035s] -- Installing: /home/gaeun/composition_assignment/install/composition/share/composition/local_setup.sh
+[5.035s] -- Installing: /home/gaeun/composition_assignment/install/composition/share/composition/local_setup.zsh
+[5.035s] -- Installing: /home/gaeun/composition_assignment/install/composition/share/composition/local_setup.dsv
+[5.035s] -- Installing: /home/gaeun/composition_assignment/install/composition/share/composition/package.dsv
+[5.035s] -- Installing: /home/gaeun/composition_assignment/install/composition/share/ament_index/resource_index/packages/composition
+[5.035s] -- Installing: /home/gaeun/composition_assignment/install/composition/share/ament_index/resource_index/rclcpp_components/composition
+[5.035s] -- Installing: /home/gaeun/composition_assignment/install/composition/share/composition/cmake/compositionConfig.cmake
+[5.035s] -- Installing: /home/gaeun/composition_assignment/install/composition/share/composition/cmake/compositionConfig-version.cmake
+[5.035s] -- Installing: /home/gaeun/composition_assignment/install/composition/share/composition/package.xml
+[5.036s] Invoked command in '/home/gaeun/composition_assignment/build/composition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gaeun/install/launch_testing_examples:/home/gaeun/install/examples_rclpy_pointcloud_publisher:/home/gaeun/install/examples_rclpy_minimal_subscriber:/home/gaeun/install/examples_rclpy_minimal_service:/home/gaeun/install/examples_rclpy_minimal_publisher:/home/gaeun/install/examples_rclpy_minimal_client:/home/gaeun/install/examples_rclpy_minimal_action_server:/home/gaeun/install/examples_rclpy_minimal_action_client:/home/gaeun/install/examples_rclpy_guard_conditions:/home/gaeun/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/gaeun/composition_assignment/build/composition
